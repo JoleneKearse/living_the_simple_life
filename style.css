@@ -81,9 +81,17 @@ body {
 }
 
 .tagline,
+.emphasis,
+.article-link {
+    font-weight: 700;
+}
+
+a {
+    font-weight: 400;
+}
+.tagline,
 .article-link,
 a {
-    font-weight: 700;
     color: var(--clr-accent-light);
 }
 
@@ -124,13 +132,9 @@ a:focus,
     color: var(--clr-accent-dark);
 }
 
-.emphasis {
-    font-weight: 700;
-}
-
 .article-link {
     font-size: var(--fs-small);
-    font-weight: 700;
+    text-align: center;
     text-decoration: none;
 }
 
