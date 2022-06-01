@@ -294,13 +294,16 @@ footer {
     .prev-post {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
     }
     .prev-post-main {
         width: 70%;
     }
     .prev-post-secondary {
         width: 25%;
+    }
+    .prev-post-main > .article-title {
+        margin-top: 0;
     }
     .article-image {
         margin: 0;
@@ -327,8 +330,8 @@ footer {
     }
     .nav-list {
         display: flex;
+        justify-content: space-between;
         align-items: center;
-        width: 25vw;
         padding-top: 2.5em;
     }
     .nav-list > li:last-child {
