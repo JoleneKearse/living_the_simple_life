@@ -56,6 +56,12 @@ body {
 }
 
 /* ---------- TYPOGRAPHY ----------*/
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
 .site-title,
 .article-title,
 .sidebar-title,
@@ -141,6 +147,15 @@ a:focus,
 .article-link:hover,
 .article-link:focus {
     text-decoration: underline;
+}
+
+
+#collapse-margins {
+    margin-top: 0;
+    padding-top: 0;
+}
+.sidebar-image-post {
+    margin: 0 0 var(--gap-small) 0;
 }
 
 footer > p:first-child {
