@@ -228,19 +228,13 @@ footer {
     margin-bottom: var(--gap-med);
 }
 
-.prev-post > .article-image {
-    order: -2;
+.prev-post-secondary {
+    order: -1;
 }
 
-.prev-post > .article-title {
-    order: -1;
-    justify-content: space-between;
-}
-
-.prev-post > .article-info {
-    order: -1;
-    justify-content: space-between;
-}
+/* .prev-post-main {
+    order: 2;
+} */
 
 .sidebar-box {
     margin: var(--gap-large) 0;
@@ -266,7 +260,7 @@ footer {
 }
 
 .sidebar-prev-post:not(:last-child) {
-    border-bottom: .2rem solid var(--clr-light-grey);
+    border-bottom: .1rem solid var(--clr-dark-grey);
 }
 
 /* ---------- MEDIA QUERIES ----------*/
