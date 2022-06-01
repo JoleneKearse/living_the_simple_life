@@ -64,12 +64,16 @@ h3 {
 
 .site-title,
 .article-title,
-.sidebar-title,
 .sidebar-prev-post-title {
     font-family: 'Lora', serif;
-    color: var(--clr-accent-dark);
 }
 
+.site-title,
+.article-title,
+.sidebar-title,
+.sidebar-prev-post-title {
+    color: var(--clr-accent-dark);
+}
 .title {
     text-align: center;
 }
@@ -107,6 +111,11 @@ a {
 
 h2 {
     font-size: var(--fs-big);
+}
+
+.sidebar-title {
+    font-size: var(--fs-med);
+    font-weight: 700;
 }
 
 .nav-link {
@@ -295,6 +304,7 @@ footer {
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
+        gap: var(--gap-large);
     }
     .prev-post-main {
         width: 70%;
@@ -306,7 +316,13 @@ footer {
         margin-top: 0;
     }
     .article-image {
+        width: 100%;
+        min-height: 200px;
         margin: 0;
+        object-fit: cover;
+    }
+    .shift-left {
+        object-position: left;
     }
     .article-info {
         text-align: right;
