@@ -203,7 +203,8 @@ footer {
 /* ---------- COMPONENTS ----------*/
 .featured-post,
 .prev-post,
-.sidebar-box {
+.sidebar-box,
+.sidebar-prev-post {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -232,10 +233,6 @@ footer {
     order: -1;
 }
 
-/* .prev-post-main {
-    order: 2;
-} */
-
 .sidebar-box {
     margin: var(--gap-large) 0;
     padding: var(--gap-med);
@@ -246,9 +243,9 @@ footer {
     padding-bottom: var(--gap-small);
 }
 
-.sidebar-prev-post-title {
+/* .sidebar-prev-post-title {
     order: -2;
-}
+} */
 
 .sidebar-image-post {
     /* display: flex; */
