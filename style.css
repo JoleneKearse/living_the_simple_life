@@ -183,8 +183,7 @@ article + article {
 
 .article-title,
 .sidebar-title,
-.article-image,
-.sidebar-prev-post-title {
+.article-image {
     margin: var(--gap-small) 0;
 }
 
@@ -243,20 +242,13 @@ footer {
     padding-bottom: var(--gap-small);
 }
 
-/* .sidebar-prev-post-title {
-    order: -2;
-} */
-
 .sidebar-image-post {
-    /* display: flex; */
     order: -1;
+    margin-top: var(--gap-med);
 }
 
 .sidebar-prev-post:not(:last-child) {
-    padding-bottom: var(--gap-med);
-}
-
-.sidebar-prev-post:not(:last-child) {
+    padding-bottom: var(--gap-small);
     border-bottom: .1rem solid var(--clr-dark-grey);
 }
 
