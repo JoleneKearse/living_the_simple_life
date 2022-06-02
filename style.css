@@ -57,7 +57,7 @@ body {
     font-size: 1rem;
     font-weight: 300;
     /* text-align: center; */
-    line-height: 1.2;
+    line-height: 1.6;
     color: var(--clr-dark-grey);
     background-color: #f9ffff;
 }
@@ -84,6 +84,7 @@ h3 {
 
 .title {
     text-align: center;
+    line-height: 1.2;
 }
 
 .site-title {
@@ -124,6 +125,11 @@ h2 {
 .sidebar-title {
     font-size: var(--fs-med);
     font-weight: 700;
+    line-height: 1.1;
+}
+
+.sidebar-prev-post-title {
+    line-height: 1.1;
 }
 
 .nav-list {
